@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_shadow"
+    android:layout_marginBottom="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ic_profile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_user"/>
+
+        <TextView
+            android:id="@+id/tv_fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ic_profile"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Frisisilia Siagian"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_fullname"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@id/ic_profile"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            android:text="Student"
+            android:textColor="@color/gray_dark"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gradient_grey_1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_rating1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="4.5"
+            android:textColor="#a1a9fe"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" / "
+            android:textColor="#a1a9fe"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_rating2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="5.0"
+            android:textColor="#a1a9fe"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:lineSpacingExtra="4dp"
+        android:lines="3"
+        android:text="@string/samplelong_text"
+        android:textColor="@color/gray_darkest"
+        android:textSize="16dp" />
+
+</LinearLayout>

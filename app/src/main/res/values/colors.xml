@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#fbe2e3</color>
+    <color name="colorSecondary">#fbcad3</color>
+    <color name="colorSecondaryDark">#f9a0df</color>
+    <color name="colorPrimaryDark">#4120a9</color>
+    <color name="colorAccentDark">#db9af4</color>
+    <color name="colorAccent">#a1a9fe</color>
+    <color name="colorAccentYellow">#FFFB92</color>
+    <color name="colorAccentGreen">#96E8BF</color>
+    <color name="colorAccentPink">#EB7AB0</color>
+    <color name="gradEnd">#654ea3</color>
+    <color name="gradStart">#eaafc8</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+    <color name="brown">#4e342e</color>
+    <color name="gradient_grey_1">#F0F0F5</color>
+    <color name="gradient_grey_2">#F7F8FA</color>
+</resources>

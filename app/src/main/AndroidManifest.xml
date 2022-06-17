@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edupedia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DetailAustraliaActivity"></activity>
+        <activity android:name=".StudyProvisionsAmerikaActivity" />
+        <activity android:name=".EducationAmerikaActivity" />
+        <activity android:name=".CostOfLivingAmerikaActivity" />
+        <activity android:name=".ReasonAmerikaActivity" />
+        <activity android:name=".ReasonIndonesiaActivity" />
+        <activity android:name=".UnivIndonesiaActivity" />
+        <activity android:name=".DetailIndonesiaActivity" />
+        <activity android:name=".UnivAmerikaActivity" />
+        <activity android:name=".DetailAmerikaActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".EmailNotFoundActivity" />
+        <activity android:name=".ResetEmailActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
